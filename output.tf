@@ -5,3 +5,9 @@ output "my_vpc" {
 output "my_subnet" {
  value = aws_subnet.subnet-1.id
 }
+
+output "my-igw" {
+value = aws_internet_gateway.igw.id
+}
+
+
