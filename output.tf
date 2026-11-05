@@ -10,4 +10,14 @@ output "my-igw" {
 value = aws_internet_gateway.igw.id
 }
 
+output "my-rt" {
+value = aws_route_table.my-route-table.id
+}
+
+output "my-rta" {
+value = aws_route_table_association.my-route-association.id
+}
+
+
+
 
